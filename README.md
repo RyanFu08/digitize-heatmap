@@ -1,6 +1,7 @@
 # digitize-heatmap
 
-[![Mentioned in Awesome Open Geoscience](https://awesome.re/mentioned-badge.svg)]([https://github.com/<INSERT LIST URL>](https://github.com/softwareunderground/awesome-open-geoscience)
+[![Mentioned in Awesome Open Geoscience](https://awesome.re/mentioned-badge.svg)](https://github.com/softwareunderground/awesome-open-geoscience)
+
 
 Lightweight and flexible tool for digitizing heatmaps. A deployment can be found at [ryanfu.me/digitize-heatmap/](http://ryanfu.me/digitize-heatmap/).
 
