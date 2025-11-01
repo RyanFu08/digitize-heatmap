@@ -43,7 +43,7 @@ The paper used for the above example is Liu et al: [https://doi.org/10.1186/s405
   Row 3 Column 1 Value, Row 3 Column 2 Value, Row 3 Column 3 Value, ...
   ```
 
-[A demo of some of the features can be found here.](http://ryanfu.me/digitize-heatmap/assets/demo-video.mp4)
+[A demo of some of the features can be found here.]([http://ryanfu.me/digitize-heatmap/assets/demo-video.mp4](https://ryanfu08.github.io/digitize-heatmap/assets/demo-video.mp4))
 
 ## Documentation
 
