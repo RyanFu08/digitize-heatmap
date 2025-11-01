@@ -10,12 +10,14 @@ document.addEventListener('discrete', async () => {
       const colhex = rgbToHex(col.r, col.g, col.b)
       if (!colorMap.has(colhex)) {
         while (true) {
-          var val = parseFloat(prompt('Enter the value for the color: '))
-          if (val != NaN) break
+          const val = await showValueInputDialog('Enter the value for the color:')
+          if (val !== null && !isNaN(val)) {
+            colorMap.set(colhex, val)
+            console.log(colorMap)
+            break
+          }
           alert('Invalid input. Please enter a valid number (decimal allowed).')
         }
-        colorMap.set(colhex, val)
-        console.log(colorMap)
         break
       } else {
         alert('Color already selected. Please select another color.')
@@ -24,8 +26,9 @@ document.addEventListener('discrete', async () => {
   }
   sharedData.colorMap = colorMap
   sharedData.colorMapType = 'discrete'
-  document.getElementById('getData').innerText = 'Get Data (Discrete)'
-  alert('Colormap created successfully! Get Data to download results!')
+  document.getElementById('getData').innerText = 'Download Data (Discrete)'
+  displayColormap(colorMap, 'discrete')
+  alert('Discrete colormap created successfully! Use Preview to verify, then Download Data.')
 })
 
 function componentToHex (c) {

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1182"
+   height="257"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="heatmap__diagram_manual_flat.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1125146"
+     inkscape:cx="697.51891"
+     inkscape:cy="253.03038"
+     inkscape:window-width="2528"
+     inkscape:window-height="1412"
+     inkscape:window-x="44"
+     inkscape:window-y="47"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg46" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+    <style
+       id="style1">
+      .box { fill: #f8f9fa; stroke: #343a40; stroke-width: 2; rx: 8; }
+      .process { fill: #e3f2fd; stroke: #1976d2; stroke-width: 2; rx: 8; }
+      .data { fill: #fff3e0; stroke: #f57c00; stroke-width: 2; rx: 8; }
+      .output { fill: #e8f5e8; stroke: #388e3c; stroke-width: 2; rx: 8; }
+      .text { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .title { font-size: 14px; font-weight: bold; }
+      .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,0 10,3.5 0,7 "
+         fill="#666666"
+         id="polygon1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-8"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-2"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-39" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-3"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-7"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-9"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-99" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-6"
+       refX="5"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-5" />
+    </marker>
+  </defs>
+  <rect
+     style="opacity:1;fill:#ffffff;stroke:none;stroke-width:2.21209;stroke-miterlimit:3.9;stroke-dasharray:none"
+     id="rect49"
+     width="1179.921"
+     height="255.50073"
+     x="0.55620325"
+     y="0.85104251" />
+  <!-- Title -->
+  <!-- Input: PDF -->
+  <!-- Process: PDF Rendering -->
+  <!-- Process: User Interaction -->
+  <!-- Data: Image Data -->
+  <!-- Process: Colormap Definition -->
+  <text
+     x="445.25424"
+     y="240.29663"
+     class="text"
+     id="text13" />
+  <text
+     x="445.25424"
+     y="270.29663"
+     class="text"
+     id="text15" />
+  <!-- Process: Color Analysis -->
+  <!-- Process: Data Extraction -->
+  <!-- Output: CSV -->
+  <!-- Process: Undefined Handling -->
+  <!-- Arrows -->
+  <line
+     x1="155.25877"
+     y1="123.49888"
+     x2="205.2588"
+     y2="123.49888"
+     class="arrow"
+     id="line27"
+     style="stroke:#4d4d4d;marker-end:url(#DartArrow)" />
+  <line
+     x1="317.55267"
+     y1="123.49888"
+     x2="367.5527"
+     y2="123.49888"
+     class="arrow"
+     id="line27-7"
+     style="stroke:#4d4d4d;stroke-width:2;marker-end:url(#DartArrow-2)" />
+  <line
+     x1="479.91708"
+     y1="123.49888"
+     x2="529.91718"
+     y2="123.49888"
+     class="arrow"
+     id="line27-6"
+     style="stroke:#4d4d4d;stroke-width:2;marker-end:url(#DartArrow-3)" />
+  <line
+     x1="642.73065"
+     y1="123.49888"
+     x2="692.73071"
+     y2="123.49888"
+     class="arrow"
+     id="line27-70"
+     style="stroke:#4d4d4d;stroke-width:2;marker-end:url(#DartArrow-7)" />
+  <line
+     x1="804.19678"
+     y1="123.49888"
+     x2="854.19684"
+     y2="123.49888"
+     class="arrow"
+     id="line27-72"
+     style="stroke:#4d4d4d;stroke-width:2;marker-end:url(#DartArrow-9)" />
+  <line
+     x1="966.53577"
+     y1="123.49888"
+     x2="1016.5357"
+     y2="123.49888"
+     class="arrow"
+     id="line27-8"
+     style="stroke:#4d4d4d;stroke-width:2;marker-end:url(#DartArrow-6)" />
+  <!-- Algorithm boxes -->
+  <g
+     id="g9"
+     transform="translate(-24.269343,3.5954583)">
+    <rect
+       x="70.338989"
+       y="20.889835"
+       width="120"
+       height="60"
+       class="box"
+       id="rect1" />
+    <text
+       x="130.33897"
+       y="45.889832"
+       class="text title"
+       id="text2">PDF Input</text>
+    <text
+       x="130.33897"
+       y="65.889832"
+       class="text"
+       id="text3">Scientific Papers</text>
+  </g>
+  <g
+     id="g2"
+     transform="translate(-24.269343,-1.7553674)">
+    <rect
+       x="70"
+       y="95.254242"
+       width="120"
+       height="60"
+       class="process"
+       id="rect3" />
+    <text
+       x="130.00002"
+       y="120.25425"
+       class="text title"
+       id="text4">PDF.js Rendering</text>
+    <text
+       x="130.00002"
+       y="140.25424"
+       class="text"
+       id="text5">Canvas Display</text>
+  </g>
+  <g
+     id="g1"
+     transform="translate(-32.078132,-1.7553674)">
+    <rect
+       x="240.00003"
+       y="95.254242"
+       width="120"
+       height="60"
+       class="process"
+       id="rect5" />
+    <text
+       x="300.00003"
+       y="115.25425"
+       class="text title"
+       id="text6">User Interaction</text>
+    <text
+       x="300.00003"
+       y="130.25424"
+       class="text"
+       id="text7">• Crop Selection</text>
+    <text
+       x="300.00003"
+       y="145.25424"
+       class="text"
+       id="text8">• Zoom/Navigate</text>
+  </g>
+  <g
+     id="g3"
+     transform="translate(-32.356982,-1.7553636)">
+    <rect
+       x="402.47012"
+       y="95.351456"
+       width="120.78014"
+       height="59.805565"
+       class="data"
+       id="rect8" />
+    <text
+       x="460.00003"
+       y="120.25425"
+       class="text title"
+       id="text9">Image Data</text>
+    <text
+       x="460.00003"
+       y="140.25424"
+       class="text"
+       id="text10">RGB Values</text>
+  </g>
+  <g
+     id="g5"
+     transform="translate(-20.844339,2.8907755)">
+    <rect
+       x="715.33997"
+       y="90.216209"
+       width="129.7117"
+       height="60.783779"
+       class="process"
+       id="rect10" />
+    <text
+       x="778.66193"
+       y="105.88888"
+       class="text title"
+       id="text11">Colormap Setup</text>
+    <text
+       x="781.06219"
+       y="129.06686"
+       class="text"
+       id="text12">Discrete:Click → Value</text>
+    <text
+       x="779.9375"
+       y="146.9906"
+       class="text"
+       id="text14">Continuous: Endpoints</text>
+  </g>
+  <g
+     id="g4"
+     transform="translate(-33.119383,0.37173828)">
+    <rect
+       x="565.42377"
+       y="83.127136"
+       width="120"
+       height="80"
+       class="process"
+       id="rect15" />
+    <text
+       x="625.42377"
+       y="105.39832"
+       class="text title"
+       id="text16">Color Analysis</text>
+    <text
+       x="625.42377"
+       y="125.39832"
+       class="text"
+       id="text17">Euclidean Distance</text>
+    <text
+       x="625.42377"
+       y="140.39832"
+       class="text"
+       id="text18">Tolerance Matching</text>
+    <text
+       x="625.42377"
+       y="155.39832"
+       class="text"
+       id="text19">Pixel → Value</text>
+  </g>
+  <g
+     id="g7"
+     transform="translate(-13.825216,-0.52652562)">
+    <rect
+       x="870.51208"
+       y="94.028931"
+       width="120.62853"
+       height="59.992939"
+       class="process"
+       id="rect19" />
+    <text
+       x="924.15259"
+       y="117.11862"
+       class="text title"
+       id="text20">Data Extraction</text>
+    <text
+       x="924.15259"
+       y="137.11862"
+       class="text"
+       id="text21">2D Array Mapping</text>
+  </g>
+  <g
+     id="g8"
+     transform="translate(-3.9303604,1.6886786)">
+    <rect
+       x="1022.8085"
+       y="78.660072"
+       width="119.60533"
+       height="86.300247"
+       class="output"
+       id="rect21" />
+    <text
+       x="1082.6111"
+       y="115.53901"
+       class="text title"
+       id="text22">CSV Output</text>
+    <text
+       x="1082.6111"
+       y="135.539"
+       class="text"
+       id="text23">Quantitative Data</text>
+  </g>
+  <g
+     id="g6"
+     transform="translate(-24.269343,3.5954583)">
+    <rect
+       x="719.29883"
+       y="169.62074"
+       width="128.2317"
+       height="60.685047"
+       class="process"
+       id="rect23" />
+    <text
+       x="779.75482"
+       y="184.92003"
+       class="text title"
+       id="text24">Undefined Values</text>
+    <text
+       x="783.2475"
+       y="204.7747"
+       class="text"
+       id="text25">-1 or Interpolate</text>
+    <text
+       x="783.2475"
+       y="219.77473"
+       class="text"
+       id="text26">User Choice</text>
+    <path
+       style="fill:none;stroke:#4d4d4d;stroke-width:2.08;stroke-miterlimit:3.9;marker-end:url(#DartArrow-8)"
+       d="m 618.43222,160.80509 v 42.58474 h 99.15254"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#4d4d4d;stroke-width:2.08;stroke-miterlimit:3.9;marker-end:url(#DartArrow-8)"
+       d="m 849.15256,198.94068 h 88.34746 v -47.0339"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#4d4d4d;stroke-width:2.08;stroke-miterlimit:3.9;marker-end:url(#DartArrow-8)"
+       d="M 456.35594,86.44068 V 51.483052 h 481.14408 v 38.135594"
+       id="path11" />
+  </g>
+</svg>

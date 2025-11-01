@@ -46,6 +46,7 @@ function renderPage (pageNumber) {
 
       page.render(renderContext)
       setupMouseTracking(canvas)
+      updateCanvasContainerHeight()
     }).catch(function (error) {
       console.error('Error rendering page:', error)
     })
@@ -141,6 +142,7 @@ function cropCanvas (startX, startY, endX, endY) {
   canvas.width = cropWidth
   canvas.height = cropHeight
   context.drawImage(croppedCanvas, 0, 0)
+  updateCanvasContainerHeight()
 }
 
 function getColorAtPosition (x, y) {
@@ -163,6 +165,7 @@ document.addEventListener('zoomIn', function (event) {
   canvas1.style.transform = `scale(${scale})`
   const canvas2 = document.getElementById('highlight-points')
   canvas2.style.transform = `scale(${scale})`
+  updateCanvasContainerHeight()
 })
 
 document.addEventListener('zoomOut', function (event) {
@@ -174,4 +177,15 @@ document.addEventListener('zoomOut', function (event) {
   canvas1.style.transform = `scale(${scale})`
   const canvas2 = document.getElementById('highlight-points')
   canvas2.style.transform = `scale(${scale})`
+  updateCanvasContainerHeight()
 })
+
+function updateCanvasContainerHeight() {
+  const canvas = document.getElementById('content')
+  const container = document.querySelector('.canvas-stack-container')
+  if (canvas && container) {
+    // Set container height to match the canvas height (accounting for scale)
+    const canvasHeight = canvas.height * scale
+    container.style.height = canvasHeight + 'px'
+  }
+}

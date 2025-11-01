@@ -1,9 +1,11 @@
 document.addEventListener('continuous', async () => {
   const pt1 = await getPoint()
   const colorMap = new Map()
-  const lo = parseFloat(prompt('Enter the value for the color: '))
+  const lo = await showValueInputDialog('Enter the value for the first color:')
+  if (lo === null) return
   const pt2 = await getPoint()
-  const hi = parseFloat(prompt('Enter the value for the color: '))
+  const hi = await showValueInputDialog('Enter the value for the second color:')
+  if (hi === null) return
 
   const logarithmic = sharedData.logarithmic
 
@@ -35,8 +37,8 @@ document.addEventListener('continuous', async () => {
 
   sharedData.colorMap = colorMap
   sharedData.colorMapType = 'continuous'
-  document.getElementById('getData').innerText = 'Get Data (Cont)'
-  alert('Colormap created successfully! Get Data to download results!')
+  document.getElementById('getData').innerText = 'Download Data (Continuous)'
+  displayColormap(colorMap, 'continuous')
 })
 
 function componentToHex (c) {

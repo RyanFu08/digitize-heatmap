@@ -48,10 +48,17 @@ document.addEventListener('discreteData', function (event) {
     csv += row.join(',')
     csv += '\n'
   })
+  // Generate filename based on PDF name
+  let filename = 'data.csv'
+  if (sharedData.uploadedFile && sharedData.uploadedFile.name) {
+    const pdfName = sharedData.uploadedFile.name.replace(/\.pdf$/i, '')
+    filename = `${pdfName}_data.csv`
+  }
+
   const encodedUri = encodeURI(csv)
   const link = document.createElement('a')
   link.setAttribute('href', encodedUri)
-  link.setAttribute('download', 'data.csv')
+  link.setAttribute('download', filename)
   document.body.appendChild(link)
   link.click()
 })
