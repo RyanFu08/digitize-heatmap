@@ -3,7 +3,9 @@
 [![Mentioned in Awesome Open Geoscience](https://awesome.re/mentioned-badge.svg)](https://github.com/softwareunderground/awesome-open-geoscience)
 
 
-Lightweight and flexible tool for digitizing heatmaps. A deployment can be found at [ryanfu.me/digitize-heatmap/](http://ryanfu.me/digitize-heatmap/).
+Lightweight and flexible tool for digitizing heatmaps. A deployment can be found at [ryanfu.ac/digitize-heatmap/](http://ryanfu.ac/digitize-heatmap/). A tutorial can be found below:
+
+[![Watch the video](https://img.youtube.com/vi/iop2CGw1dRM/maxresdefault.jpg)](https://youtu.be/iop2CGw1dRM)
 
 ![Demonstration Image](assets/demo.png)
 
@@ -42,8 +44,6 @@ The paper used for the above example is Liu et al: [https://doi.org/10.1186/s405
   Row 2 Column 1 Value, Row 2 Column 2 Value, Row 2 Column 3 Value, ...
   Row 3 Column 1 Value, Row 3 Column 2 Value, Row 3 Column 3 Value, ...
   ```
-
-[A demo of some of the features can be found here.]([http://ryanfu.me/digitize-heatmap/assets/demo-video.mp4](https://ryanfu08.github.io/digitize-heatmap/assets/demo-video.mp4))
 
 ## Documentation
 
